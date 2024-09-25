@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ComposePlayGround</string>
+    <string name="title_activity_media_permission">MediaPermissionActivity</string>
+    <string name="title_activity_progress">ProgressActivity</string>
+</resources>
