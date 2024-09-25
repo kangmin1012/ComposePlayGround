@@ -18,6 +18,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import compose.play.ground.coordinate.CoordinateActivity
 import compose.play.ground.permission.MediaPermissionActivity
 import compose.play.ground.progress.ProgressActivity
 import compose.play.ground.ui.theme.ComposePlayGroundTheme
@@ -61,6 +62,16 @@ fun MainScreen() {
                     }
                 ) {
                     Text("프로그레스 샘플")
+                }
+            }
+
+            item {
+                Button(
+                    onClick = {
+                        context.startActivity(Intent(context, CoordinateActivity::class.java))
+                    }
+                ) {
+                    Text("Coordinate 샘플")
                 }
             }
         }

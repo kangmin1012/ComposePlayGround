@@ -28,7 +28,9 @@
             android:exported="false"/>
         <activity
             android:name=".permission.MediaPermissionActivity"
-            android:exported="true" />
+            android:exported="false" />
+        <activity android:name=".coordinate.CoordinateActivity"
+            android:exported="false"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
