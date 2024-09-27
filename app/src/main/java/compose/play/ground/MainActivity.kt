@@ -18,6 +18,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import compose.play.ground.bottomsheet.BottomSheetActivity
 import compose.play.ground.coordinate.CoordinateActivity
 import compose.play.ground.permission.MediaPermissionActivity
 import compose.play.ground.progress.ProgressActivity
@@ -72,6 +73,16 @@ fun MainScreen() {
                     }
                 ) {
                     Text("Coordinate 샘플")
+                }
+            }
+
+            item {
+                Button(
+                    onClick = {
+                        context.startActivity(Intent(context, BottomSheetActivity::class.java))
+                    }
+                ) {
+                    Text("BottomSheet 샘플")
                 }
             }
         }
