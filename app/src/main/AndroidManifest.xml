@@ -24,13 +24,17 @@
         android:theme="@style/Theme.ComposePlayGround"
         tools:targetApi="31">
         <activity
-            android:name=".progress.ProgressActivity"
+            android:name=".bottomsheet.BottomSheetActivity"
             android:exported="false"/>
+        <activity
+            android:name=".progress.ProgressActivity"
+            android:exported="false" />
         <activity
             android:name=".permission.MediaPermissionActivity"
             android:exported="false" />
-        <activity android:name=".coordinate.CoordinateActivity"
-            android:exported="false"/>
+        <activity
+            android:name=".coordinate.CoordinateActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
