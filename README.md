@@ -8,9 +8,12 @@
 - 각각 테스트 내용은 Activity로 분리해 이동하여 확인가능하도록 구성했습니다.
 
 ## 히스토리
+- 2024년 11월
+    - ProgressActivity - Dash 형태의 ProgressBar에 차오르고 줄어드는 애니메이션을 추가했습니다.
+    - ProgressActivity - 기존 Progress 샘플을 제거하고 Dash Animation ProgressBar만 남겨놓았습니다.
 - 2024년 9월 : Target SDK 34를 대상으로하는 프로젝트에 미디어 권한 `READ_MEDIA_VISUAL_USER_SELECTED`를 테스트했습니다.
   - [MediaPermissionActivity.kt](https://github.com/kangmin1012/ComposePlayGround/blob/master/app/src/main/java/compose/play/ground/permission/MediaPermissionActivity.kt)
 - 2024년 9월 : 애니메이션으로 차오르는 Progress, Dash 형태의 Progress를 Material3 디자인이 아닌 일반적인 Progress 느낌을 표현하기 위해 테스트했습니다.
   - [ProgressActivity.kt](https://github.com/kangmin1012/ComposePlayGround/blob/master/app/src/main/java/compose/play/ground/progress/ProgressActivity.kt)
 - 2024년 9월 : LazyColumn을 이용하여 가장 상단 아이템이 화면에서 사라졌을 때 상단 영역에 하나의 고정적인 아이템을 표시해주는 레이아웃을 표현하기 위해 테스트했습니다.
-  - [CoordinateActivity.kt](https://github.com/kangmin1012/ComposePlayGround/blob/master/app/src/main/java/compose/play/ground/coordinate/CoordinateActivity.kt) 
+  - [CoordinateActivity.kt](https://github.com/kangmin1012/ComposePlayGround/blob/master/app/src/main/java/compose/play/ground/coordinate/CoordinateActivity.kt)
